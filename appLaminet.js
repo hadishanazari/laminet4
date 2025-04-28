@@ -38,3 +38,20 @@ btnPrev.addEventListener("click", () => {
   positions.push(positions.shift());
   updateClasses();
 });
+
+///////////////////////////
+let headerIcon = document.querySelector('.header__menu-icon-toggle');
+let headernav1 = document.querySelector('.header__nav--mobile');
+
+headerIcon.addEventListener("click", () => {
+  headernav1.classList.toggle('active');
+});
+
+
+let activeSubmenu = document.querySelector('.active-submenu');
+let headermenuslide1 = document.querySelector('.header__menu-submenu--mobile');
+
+
+activeSubmenu.addEventListener("click", () => {
+  headermenuslide1.classList.toggle('active');
+});
