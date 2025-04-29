@@ -103,12 +103,13 @@ a {
   position: absolute;
   right: 10px;
   top: 80px;
- display: none;
+  display: none;
   z-index: -10;
   width: 140px;
   transform: translateY(50px);
   transition: opacity 0.5s ease, transform 0.3s ease;
 }
+
 .header__menu--mobile {
   overflow: hidden;
   display: flex;
@@ -283,7 +284,7 @@ a {
 
 /* baner*/
 
-.baner-main {
+.baner__main {
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -301,7 +302,7 @@ a {
   align-items: center;
 }
 
-.baner-title {
+.baner__title {
   color: beige;
   text-shadow: 1px 1px 2px black, 1px 1px 30px blue, 10px 15px 5px darkblue;
   font-size: 40px;
@@ -326,14 +327,14 @@ a {
   left: 0;
 } */
 
-.baner .slider {
+.baner__slider {
   display: flex;
   position: relative;
   top: 80px;
   margin: 0 auto;
 }
 
-.baner .list {
+.baner__slider-items {
   display: flex;
   position: relative;
   width: 400px;
@@ -344,7 +345,7 @@ a {
     20px 15px 20px 10px rgb(0, 0, 0, 0.2), 0px 0px 10px 5px rgb(0, 0, 0, 0.2);
 }
 
-.list .item {
+.baner__slider-items .baner__slider-item {
   width: 400px;
   height: 300px;
   border-radius: 30px;
@@ -353,7 +354,7 @@ a {
 }
 
 
-.item.position-0 {
+.baner__slider-item.position-0 {
   width: 100%;
   height: 100%;
   top: 0;
@@ -362,7 +363,7 @@ a {
   opacity: 1;
 }
 
-.item.position-1 {
+.baner__slider-item.position-1 {
   width: 90%;
   height: 90%;
   top: 5%;
@@ -371,7 +372,7 @@ a {
   opacity: 1;
 }
 
-.item.position-2 {
+.baner__slider-item.position-2 {
   width: 80%;
   height: 80%;
   top: 10%;
@@ -380,7 +381,7 @@ a {
   opacity: 0.6;
 }
 
-.item.position-3 {
+.baner__slider-item.position-3 {
   width: 80%;
   height: 80%;
   top: 10%;
@@ -389,7 +390,7 @@ a {
   opacity: 0.6;
 }
 
-.item.position-4 {
+.baner__slider-item.position-4 {
   width: 90%;
   height: 90%;
   top: 5%;
@@ -398,14 +399,14 @@ a {
   opacity: 1;
 }
 
-.item img {
+.baner__slider-item img {
   position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 30px;
 }
 
-.baner .btns {
+.baner__btns {
   width: 150px;
   height: 80px;
   top: 130px;
@@ -413,8 +414,8 @@ a {
   border: none;
 }
 
-.baner #btnNext,
-.baner #btnPrev {
+#baner__btnNext,
+#baner__btnPrev {
   width: 50px;
   height: 50px;
   overflow: hidden;
@@ -429,14 +430,14 @@ a {
     inset 0px 0px 4px 3px rgb(0, 0, 0, 0.4);
 }
 
-.baner #btnNext img,
-.baner #btnPrev img {
+#baner__btnNext img,
+#btnPrev img {
   width: 80%;
 
 }
 
-.baner #btnNext:hover,
-.baner #btnPrev:hover {
+#baner__btnNext:hover,
+#baner__btnPrev:hover {
   background: rgb(224, 20, 20);
 
 }
@@ -449,12 +450,13 @@ a {
 
 
 /* main */
-.discription{
+.discription {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
+
 .discription .container {
   border-radius: 30px;
   display: flex;
@@ -464,7 +466,7 @@ a {
 }
 
 
-.discriptionMain {
+.discription__main {
   margin: 20px;
   width: 90%;
   height: auto;

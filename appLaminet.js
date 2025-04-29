@@ -10,10 +10,10 @@ updateWidth();
 
 
 
-const list = document.querySelector(".list");
-const btnNext = document.getElementById("btnNext");
-const btnPrev = document.getElementById("btnPrev");
-const items = Array.from(document.querySelectorAll(".item"));
+const list = document.querySelector(".baner__slider-items");
+const btnNext = document.getElementById("baner__btnNext");
+const btnPrev = document.getElementById("baner__btnPrev");
+const items = Array.from(document.querySelectorAll(".baner__slider-item"));
 
 let positions = [0, 1, 2, 3, 4];
 
@@ -22,7 +22,7 @@ updateClasses();
 function updateClasses() {
   items.forEach((item, index) => {
 
-    item.className = "item";
+    item.className = "baner__slider-item";
     item.classList.add(`position-${positions[index]}`);
 
   });

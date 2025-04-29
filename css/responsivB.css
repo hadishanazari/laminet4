@@ -28,15 +28,15 @@
    /*End hedar */
   
    /* baner */
-   .baner-title {
+   .baner__title {
     text-align: center;
     right: auto;
     font-size: 30px;
   }
-  .baner .slider{
+ .baner__slider{
     top: 50px;
   }
-   .baner .list {
+.baner__slider-items {
     display: flex;
     position: relative;
     width: 250px;
@@ -47,14 +47,14 @@
       20px 15px 20px 10px rgb(0, 0, 0, 0.2), 0px 0px 10px 5px rgb(0, 0, 0, 0.2);
       
   }
-   .list .item {
+   .baner__slider-items .baner__slider-item {
     width: 250px;
     height: 225px;
     border-radius: 20px;
     position: absolute;
     transition: .5s ease;
   }
-  .item.position-0 {
+  .baner__slider-item.position-0 {
     width: 100%;
     height: 100%;
     top: 0px;
@@ -63,7 +63,7 @@
     opacity: 1;
   }
   
-  .item.position-1 {
+  .baner__slider-item.position-1 {
     width: 90%;
     height: 90%;
     top: 5%;
@@ -72,7 +72,7 @@
     opacity: 1;
   }
   
-  .item.position-2 {
+  .baner__slider-item.position-2 {
     width: 80%;
     height: 80%;
     top: 10%;
@@ -81,7 +81,7 @@
     opacity: 0.6;
   }
   
-  .item.position-3 {
+  .baner__slider-item.position-3 {
     width: 80%;
     height: 80%;
     top: 10%;
@@ -90,7 +90,7 @@
     opacity: 0.6;
   }
   
-  .item.position-4 {
+  .baner__slider-item.position-4 {
     width: 90%;
     height: 90%;
     top: 5%;
@@ -99,14 +99,14 @@
     opacity: 1;
   }
   
-  .item img {
+  .baner__slider-item img {
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 20px;
   }
   
-  .baner .btns {
+  .baner__btns {
     top: -35px;
     right: 85px;
     margin: 100px 0 20px 0 ;
@@ -168,12 +168,12 @@
    /*End hedar */
   
     /* baner */
-    .baner-title {
+    .baner__title {
       text-align: center;
       right: auto;
       font-size: 30px;
     }
-     .baner .list {
+    .baner__slider-items {
       display: flex;
       position: relative;
       width: 300px;
@@ -184,14 +184,14 @@
         20px 15px 20px 10px rgb(0, 0, 0, 0.2), 0px 0px 10px 5px rgb(0, 0, 0, 0.2);
         
     }
-     .list .item {
+     .baner__slider-items .baner__slider-item {
       width: 300px;
       height: 225px;
       border-radius: 20px;
       position: absolute;
       transition: .5s ease;
     }
-    .item.position-0 {
+    .baner__slider-item.position-0 {
       width: 100%;
       height: 100%;
       top: 0px;
@@ -200,7 +200,7 @@
       opacity: 1;
     }
     
-    .item.position-1 {
+    .baner__slider-item.position-1 {
       width: 90%;
       height: 90%;
       top: 5%;
@@ -209,7 +209,7 @@
       opacity: 1;
     }
     
-    .item.position-2 {
+    .baner__slider-item.position-2 {
       width: 80%;
       height: 80%;
       top: 10%;
@@ -218,7 +218,7 @@
       opacity: 0.6;
     }
     
-    .item.position-3 {
+    .baner__slider-item.position-3 {
       width: 80%;
       height: 80%;
       top: 10%;
@@ -227,7 +227,7 @@
       opacity: 0.6;
     }
     
-    .item.position-4 {
+    .baner__slider-item.position-4 {
       width: 90%;
       height: 90%;
       top: 5%;
@@ -236,14 +236,14 @@
       opacity: 1;
     }
     
-    .item img {
+    .baner__slider-item img {
       position: absolute;
       width: 100%;
       height: 100%;
       border-radius: 20px;
     }
     
-    .baner .btns {
+  .baner__btns {
       margin: 120px 0 20px 0 ;
     }
     
