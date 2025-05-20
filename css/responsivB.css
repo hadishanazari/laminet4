@@ -113,7 +113,10 @@
   }
   /*End baner */
   
-  
+  .discription__main img{
+    width: 250px;
+    border-radius: 15px;
+  }
   
   /* footer */
     .footer__main {}
