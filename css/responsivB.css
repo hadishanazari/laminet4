@@ -115,6 +115,9 @@
   .discription__main {
     padding: 20px 20px 50px 20px;
   }
+  .discription p{
+    font-size: 16px;
+  }
   .discription__main img{
     width: 250px;
     border-radius: 15px;
