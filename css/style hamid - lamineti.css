@@ -310,8 +310,9 @@ a {
   color: beige;
   text-shadow: 1px 1px 2px black, 1px 1px 30px blue, 10px 15px 5px darkblue;
   font-size: 40px;
-  width: 400px;
+  width: 600px;
   margin-top: 30px;
+  text-align: center;
 }
 
 /* .svg {
